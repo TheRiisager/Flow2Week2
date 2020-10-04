@@ -12,3 +12,6 @@ AJAX (Asynchronous Javascript And XML) has enabled data in web pages to be serve
 <br><br>
 **5) Explain the Same Origin Policy (for AJAX), and different ways to work around it**<br>
 The Same Origin Policy allows scripts to only access data from other pages if both pages have the same origin. One way of working around this restriction is Cross-Origin Resource Sharing, which uses HTTP headers to allow access to certain resources from a different origin. Another way is to run a proxy for an external resource on the same origin.
+<br><br>
+**Why is it possible to obtain data from restcountries.eu despite SOP?**<br>
+It's possible due to the "Access-Control-Allow-Origin *" response header, which allows access from any origin (the *).

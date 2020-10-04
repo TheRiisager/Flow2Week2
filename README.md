@@ -5,3 +5,5 @@ Day 2 contains the javascript exercises for tuesday
 Day 3 - Day3-3 contains the AJAX/Fetch exercises from wednesday
 <br>
 Day4 contains the CORS exercises from thursday (Unfinished, not deployed)
+<br>
+Day5 contains the AJAX/CORS exercises from friday (unfinished)

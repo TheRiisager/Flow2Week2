@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="main">
+      <h2>All users:</h2>
+      <table id ="allUsersTable" class="table"></table>
+      <br>
+      <h2>Get user by ID:</h2>
+      <input type="text" id="idIn"><input type="button" id="getByIdButton" value="get user">
+      <p id="getUserOut"></p>
+    </div>
+    <br>
+    <br>
+    <div>
+      <h2>Add person</h2>
+      <form id="addForm">
+        <label for="name">name</label>
+        <input type="text" id="name"><br>
+        <label for="age">age</label>
+        <input type="text" id="age"><br>
+        <label for="gender">gender</label>
+        <input type="text" id="gender"><br>
+        <label for="email">email</label>
+        <input type="text" id="email"><br>
+        <input type="submit" value="add person">
+      </form>
+    </div>
+    <br>
+    <div>
+      <h2>Edit person</h2>
+      <form id="editForm">
+        <label for="id">ID</label>
+        <input type="text" id="idField"><br>
+        <label for="name">name</label>
+        <input type="text" id="name2"><br>
+        <label for="age">age</label>
+        <input type="text" id="age2"><br>
+        <label for="gender">gender</label>
+        <input type="text" id="gender2"><br>
+        <label for="email2">email</label>
+        <input type="text" id="email2"><br>
+        <input type="submit" value="edit person">
+      </form>
+    </div>
+    <br>
+    <div>
+      <h2>Delete person</h2>
+      <input type="text" id="deleteId"><input type="button" value="Delete by ID" id="deleteButton">
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
